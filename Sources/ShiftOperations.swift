@@ -55,3 +55,33 @@ extension ShiftOperations {
     }
 
 }
+
+extension Int: ShiftOperations {
+}
+
+extension Int64: ShiftOperations {
+}
+
+extension Int32: ShiftOperations {
+}
+
+extension Int16: ShiftOperations {
+}
+
+extension Int8: ShiftOperations {
+}
+
+extension UInt: ShiftOperations {
+}
+
+extension UInt64: ShiftOperations {
+}
+
+extension UInt32: ShiftOperations {
+}
+
+extension UInt16: ShiftOperations {
+}
+
+extension UInt8: ShiftOperations {
+}
