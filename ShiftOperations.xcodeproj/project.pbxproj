@@ -12,6 +12,7 @@
 		52ADBEA71DE55272004CB28A /* ShiftOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShiftOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ADBEB41DE55279004CB28A /* ShiftOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShiftOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ADBEBD1DE5529A004CB28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShiftOperations.xcodeproj/Info.plist; sourceTree = "<group>"; };
+		52ADBEBF1DE5535D004CB28A /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 				52ADBEBE1DE552EC004CB28A /* Sources */,
 				52ADBEBC1DE55282004CB28A /* Support */,
 				52ADBE8D1DE55262004CB28A /* Products */,
+				52ADBEBF1DE5535D004CB28A /* LICENSE.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -819,6 +821,7 @@
 				52ADBE931DE55262004CB28A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52ADBE9F1DE5526A004CB28A /* Build configuration list for PBXNativeTarget "ShiftOperations iOS" */ = {
 			isa = XCConfigurationList;
@@ -827,6 +830,7 @@
 				52ADBEA11DE5526A004CB28A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52ADBEAC1DE55272004CB28A /* Build configuration list for PBXNativeTarget "ShiftOperations watchOS" */ = {
 			isa = XCConfigurationList;
@@ -835,6 +839,7 @@
 				52ADBEAE1DE55272004CB28A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52ADBEB91DE55279004CB28A /* Build configuration list for PBXNativeTarget "ShiftOperations tvOS" */ = {
 			isa = XCConfigurationList;
@@ -843,6 +848,7 @@
 				52ADBEBB1DE55279004CB28A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
