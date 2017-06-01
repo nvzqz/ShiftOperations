@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = "ShiftOperations"
-    s.version                   = "1.0.0"
+    s.version                   = "1.0.1"
     s.summary                   = "A µframework for a ShiftOperations protocol that doesn't appear in the Swift standard library."
     s.homepage                  = "https://github.com/nvzqz/#{s.name}"
     s.license                   = { :type => "MIT", :file => "LICENSE.md" }
