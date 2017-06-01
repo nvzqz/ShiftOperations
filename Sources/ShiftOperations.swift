@@ -26,6 +26,7 @@
 //
 
 /// A type that can use shift operators.
+@available(swift, obsoleted: 4.0, message: "Functionality replaced by BinaryInteger")
 public protocol ShiftOperations {
 
     /// Shifts `lhs` left by `rhs` and returns the result.
@@ -41,6 +42,8 @@ public protocol ShiftOperations {
     static func >>= (lhs: inout Self, rhs: Self)
 
 }
+
+#if !swift(>=4)
 
 extension ShiftOperations {
 
@@ -85,3 +88,5 @@ extension UInt16: ShiftOperations {
 
 extension UInt8: ShiftOperations {
 }
+
+#endif
